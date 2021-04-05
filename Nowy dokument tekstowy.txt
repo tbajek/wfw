@@ -1,0 +1,16 @@
+
+
+Part 1
+
+ public MainWindow()
+        {
+            InitializeComponent();
+            desObj = Rijndael.Create();
+        }
+        string cipherData;
+        byte[] chiperbytes;
+        byte[] plainbytes;
+        byte[] plainbytes2;
+        byte[] plainKey;
+
+        SymmetricAlgorithm desObj;ddd
